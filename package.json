@@ -1,0 +1,36 @@
+{
+  "name": "@finga/spawn-tslib",
+  "version": "1.0.0-beta.1",
+  "description": "Utility to spawn a TS library with all configs and setup ready",
+  "main": "index.js",
+  "bin": {
+    "@finga/spawn-tslib": "node ./index.js"
+  },
+  "scripts": {
+    "spawn": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fingerartur/spawn-tslib.git"
+  },
+  "keywords": [
+    "create",
+    "typescript",
+    "library",
+    "lib",
+    "package",
+    "ready",
+    "setup",
+    "spawn"
+  ],
+  "author": "fingerartur@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fingerartur/spawn-tslib/issues"
+  },
+  "homepage": "https://github.com/fingerartur/spawn-tslib#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.1.0"
+  }
+}
