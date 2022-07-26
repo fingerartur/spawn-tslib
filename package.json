@@ -4,7 +4,7 @@
   "description": "Utility to spawn a TS library with all configs and setup ready",
   "main": "index.js",
   "bin": {
-    "@finga/spawn-tslib": "node ./index.js"
+    "@finga/spawn-tslib": "./index.js"
   },
   "scripts": {
     "spawn": "node ./index.js"
