@@ -1,6 +1,6 @@
 {
   "name": "@finga/spawn-tslib",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.0",
   "description": "Utility to spawn a TS library with all configs and setup ready",
   "main": "index.js",
   "bin": {
