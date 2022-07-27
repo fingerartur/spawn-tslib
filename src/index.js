@@ -1,13 +1,11 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const fse = require('fs-extra')
-const child = require('child_process')
 const chalk = require('chalk')
 
 const { askProjectInfo, getProjectDir } = require('./cli.js')
 const { installDependencies } = require('./dependencies.js')
 const { createProjectFiles } = require('./file.utils.js')
+const { openInVscode } = require('./command.js')
 
 const main = async () => {
   const { name, pathname } = getProjectDir()
@@ -22,6 +20,7 @@ const main = async () => {
   installDependencies(name)
 
   console.log(chalk.green('\nSuccess!'))
+  openInVscode(name)
   process.exit(0)
 }
 
