@@ -2,12 +2,9 @@
   "name": "@finga/spawn-tslib",
   "version": "1.0.0-beta.2",
   "description": "Utility to spawn a TS library with all configs and setup ready",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "@finga/spawn-tslib": "./index.js"
-  },
-  "scripts": {
-    "spawn": "node ./index.js"
+    "@finga/spawn-tslib": "./src/index.js"
   },
   "repository": {
     "type": "git",
