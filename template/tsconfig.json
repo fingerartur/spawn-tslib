@@ -94,6 +94,10 @@
   },
   "exclude": [
     "**/*.test.ts",
-    "**/fixtures/*"
+    "**/*.spec.ts",
+    "**/fixtures/*",
+    "**/__test__/*",
+    "**/__spec__/*",
+    "**/__fixtures__/*"
   ]
 }
