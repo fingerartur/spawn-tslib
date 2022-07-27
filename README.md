@@ -21,7 +21,7 @@ If you are not fully satisfied with `@finga/spawn-tslib`, go ahead and check out
 
 ## Changelog
 
-- Unreleased
+- v1.0.2
   - Fixed changelog
 - v1.0.1
   - Open project in Vscode once it is ready
