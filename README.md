@@ -22,6 +22,8 @@ If you are not fully satisfied with `@finga/spawn-tslib`, go ahead and check out
 ## Changelog
 
 - Unreleased
+  - Fixed changelog
+- v1.0.1
   - Open project in Vscode once it is ready
   - Added more exclusion patterns for test files, to exclude them from compilation
   - Fixed ESlint config for test files and JS config files
