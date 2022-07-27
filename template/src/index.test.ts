@@ -1,4 +1,4 @@
-import { sum } from "."
+import { sum } from '.'
 
 describe('index', () => {
   it('can sum two numbers', () => {
