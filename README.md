@@ -18,3 +18,10 @@ npx @finga/spawn-tslib my-lib
 
 ## Alternatives
 If you are not fully satisfied with `@finga/spawn-tslib`, go ahead and check out https://github.com/ryancat/create-typescript-library
+
+## Changelog
+
+- Unreleased
+  - Fixed ESlint config for test files and JS config files
+- v1.0.0
+  - Added `@finga/spawn-tslib` script that spawns a ready-for-action TS library project
